@@ -77,10 +77,10 @@ header .fa-map-marker-alt {
 }
 
 header .reserv {
-  height: 250px;
+  height: auto;
   text-align: center;
   padding-top: 30px;
-  background: #f5f5f5;
+  background: #f2f2f2;
 }
 
 header .reserv h2 {
@@ -103,12 +103,13 @@ header .reserv button {
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   box-shadow: 3px 3px 8px #999999;
+  margin-bottom: 50px;
 }
 
-/* MAIN */
+/* MAIN SECTIONHEAD */
 main .sectionhead h3 {
   margin-left: 5%;
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -148,6 +149,83 @@ main .sectionhead .fa-list-ul {
 
 main .sectionhead .fa-store {
   margin-right: 19px;
+}
+
+/* MAIN RESTAURANTS */
+main .restaurants {
+  background: #f2f2f2;
+  padding-bottom: 40px;
+  height: auto;
+}
+
+main .restaurants h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+main .restaurant {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+main .restaurant img {
+  border-radius: 15px 15px 0 0;
+}
+
+main .content {
+  display: flex;
+  background: white;
+  height: 75px;
+  justify-content: space-between;
+  border-radius: 0 0 15px 15px;
+  margin-top: -5px;
+  box-shadow: 1px 2px 8px #bdbdbd;
+}
+
+main .content button {
+  margin-right: 20px;
+}
+
+main .title {
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+main .title h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+main .title p {
+  font-size: 1.1em;
+}
+
+/* FOOTER */
+footer .foot {
+  background: #363636;
+  padding-left: 5%;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+footer img {
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+footer i {
+  margin-right: 10px;
+  width: 22px;
+}
+
+footer p {
+  padding-bottom: 5px;
+  font-size: 1.1em;
 }
 
 /*# sourceMappingURL=style.css.map */
