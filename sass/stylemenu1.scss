@@ -1,1 +1,33 @@
 @import "libs/reset.scss";
+
+
+.page_complete {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/* HEADER */
+
+header .logo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+header img {
+    width: 45%;
+}
+
+header i {
+    width: 20%;
+}
+
+header .fa-arrow-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
