@@ -33,6 +33,106 @@ header .fa-arrow-left {
 
 
 
+/* MAIN */ 
+
+main .backimg {
+    background-image: url('images/restaurants/restaurantmenu1/restaurant1.jpg');
+    background-repeat: no-repeat;
+    height: 305px;
+    position: relative;
+}
+
+main .backimg .flex h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+main .flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #fafafa;
+    border-radius: 40px 40px 0 0;
+    padding-left: 5%;
+    padding-bottom: 30px;
+}
+
+
+main .flex button {
+    margin-right: 5%;
+}
+
+main .sectionmain {
+    background: #fafafa;
+    width: 100%;
+}
+
+main .sectionmain h1 {
+    margin-left: 5%;
+}
+
+main .sectionmain h2 {
+    margin-left: 5%;
+    border-bottom: 3px solid #99E2D0;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    width: 10%;
+}
+
+main .sectionmain .entre {
+    margin-bottom: 40px;
+}
+
+main .sectionmain .plats {
+    margin-bottom: 40px;
+}
+
+
+main .content h3 {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+main .content p:last-of-type {
+    color: #2b2b2b;
+    font-weight: bold;
+    margin-right: 5%;
+}
+
+main .content {
+    background: white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 8px #bdbdbd;
+    height: 60px;
+}
+
+main .title {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+main .sectionmain .button {
+    font-size: 1em;
+    height: 50px;
+    width: 50%;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    box-shadow: 3px 3px 8px #999999;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
 
 
 /* FOOTER */ 
