@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-body h1, h2, h3, p {
+body h1, h2, h3, p, a {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,7 +43,7 @@ header .reserv {
     height: auto;
     text-align: center;
     padding-top: 30px;
-    background: #f0f0f0;
+    background: #f5f5f5;
 }
 
 header .reserv h2 {
@@ -216,6 +216,8 @@ footer .foot {
     color: white;
     padding-bottom: 30px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer .foot h2 {
@@ -229,8 +231,12 @@ footer i {
     font-size: 0.9em;
 }
 
-footer p {
+footer a {
     padding-bottom: 5px;
     font-size: 0.95em;
 }
 
+footer .foot a:last-of-type {
+    color: white;
+    text-decoration: none;
+}
