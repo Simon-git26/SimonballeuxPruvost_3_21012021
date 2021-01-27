@@ -6,7 +6,9 @@
     margin: auto;
 }
 
-
+body h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* HEADER */
 
@@ -22,11 +24,15 @@ header img {
 }
 
 header .localisation {
-    text-align: center;
+    display: flex;
     background: #e8e8e8;
     padding-top: 12px;
     padding-bottom: 10px;
     box-shadow: 0px -1px 4px #bdbdbd;
+    color: #2b2b2b;
+    font-size: 1em;
+    padding-left: 27%;
+    font-weight: bold;
 }
 
 header .fa-map-marker-alt {
@@ -37,18 +43,21 @@ header .reserv {
     height: auto;
     text-align: center;
     padding-top: 30px;
-    background: #f7f7f7;
+    background: #f0f0f0;
 }
 
 header .reserv h2 {
     margin-bottom: 10px;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: bold;
+    width: 70%;
+    margin-left: 15%;
 }
 
 header .reserv p {
     margin-bottom: 30px;
     font-size: 1.2em;
+    color: #4f4f4f;
 }
 
 header .reserv button {
@@ -101,14 +110,20 @@ main .sectionhead i {
 
 main .sectionhead .fa-mobile-alt {
     margin-right: 26px;
+    color: #5c5c5c;
+    font-size: 1.2em;
 }
 
 main .sectionhead .fa-list-ul {
-    margin-right: 20px;
+    margin-right: 19px;
+    color: #5c5c5c;
+    font-size: 1.1em;
 }
 
 main .sectionhead .fa-store {
     margin-right: 19px;
+    color: #5c5c5c;
+    font-size: 1em;
 }
 
 
@@ -119,7 +134,7 @@ main .sectionhead .fa-store {
 main .new {
     background: #99E2D0;
     width: 25%;
-    height: 13%;
+    height: 12%;
     text-align: center;
     padding-top: 6px;
     position: absolute;
@@ -127,12 +142,13 @@ main .new {
     right: 0;
     margin-top: 12px;
     margin-right: 12px;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 main .new p {
     color:#288051;
     font-weight: bold;
+    font-size: 0.9em;
 }
 
 main .restaurants {
@@ -181,11 +197,13 @@ main .title {
 
 main .title h3 {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    padding-bottom: 5px;
 }
 
 main .title p {
-    font-size: 1.1em;
+    font-size: 1.05em;
+    color: #303030;
 }
 
 
@@ -200,18 +218,19 @@ footer .foot {
     padding-top: 20px;
 }
 
-footer img {
-    width: 30%;
+footer .foot h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.2em;
     padding-bottom: 10px;
 }
 
 footer i {
-    margin-right: 10px;
     width: 22px;
+    font-size: 0.9em;
 }
 
 footer p {
     padding-bottom: 5px;
-    font-size: 1.1em;
+    font-size: 0.95em;
 }
 
