@@ -1,4 +1,11 @@
+
 @import "libs/reset.scss";
+
+
+@mixin butprinc {
+    box-shadow: 4px 4px 8px #212121;
+    background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
+}
 
 
 .page_complete {
@@ -140,6 +147,10 @@ main .sectionmain .button {
     margin-left: 25%;
     margin-top: 25px;
     margin-bottom: 80px;
+}
+
+main .sectionmain button:hover {
+    @include butprinc;
 }
 
 

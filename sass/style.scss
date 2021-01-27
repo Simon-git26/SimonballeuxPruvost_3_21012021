@@ -1,4 +1,11 @@
+
 @import "libs/reset.scss";
+
+
+@mixin butprinc {
+    box-shadow: 4px 4px 8px #212121;
+    background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
+}
 
 
 .page_complete {
@@ -70,6 +77,10 @@ header .reserv button {
     color: white;
     box-shadow: 3px 3px 8px #999999;
     margin-bottom: 50px;
+}
+
+header .reserv button:hover {
+    @include butprinc;
 }
 
 

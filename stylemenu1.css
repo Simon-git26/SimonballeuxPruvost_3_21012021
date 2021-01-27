@@ -182,6 +182,11 @@ main .sectionmain .button {
   margin-bottom: 80px;
 }
 
+main .sectionmain button:hover {
+  box-shadow: 4px 4px 8px #212121;
+  background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
+}
+
 /* FOOTER */
 footer .foot {
   background: #363636;
