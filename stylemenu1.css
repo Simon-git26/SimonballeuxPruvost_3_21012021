@@ -52,6 +52,10 @@ td:not([align]), th:not([align]) {
   margin: auto;
 }
 
+body p, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 /* HEADER */
 header .logo {
   width: 100%;
@@ -72,6 +76,8 @@ header i {
 header .fa-arrow-left {
   display: flex;
   margin-left: 5%;
+  color: #363636;
+  font-size: 1.2em;
 }
 
 /* MAIN */
@@ -83,8 +89,8 @@ main .backimg {
 }
 
 main .backimg .flex h1 {
-  font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.7em;
+  font-family: "Shrikhand", cursive;
 }
 
 main .flex {
@@ -116,9 +122,11 @@ main .sectionmain h1 {
 main .sectionmain h2 {
   margin-left: 5%;
   border-bottom: 3px solid #99E2D0;
+  color: #363636;
   margin-bottom: 15px;
   padding-bottom: 5px;
   width: 10%;
+  font-size: 1em;
 }
 
 main .sectionmain .entre {
@@ -131,8 +139,9 @@ main .sectionmain .plats {
 
 main .content h3 {
   font-weight: bold;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 10px;
+  font-size: 1em;
 }
 
 main .content p:last-of-type {
@@ -156,6 +165,7 @@ main .title {
   justify-content: space-between;
   padding-left: 10px;
   padding-top: 5px;
+  font-size: 0.95em;
 }
 
 main .sectionmain .button {
@@ -181,19 +191,20 @@ footer .foot {
   padding-top: 20px;
 }
 
-footer img {
-  width: 30%;
+footer .foot h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2em;
   padding-bottom: 10px;
 }
 
 footer i {
-  margin-right: 10px;
   width: 22px;
+  font-size: 0.9em;
 }
 
 footer p {
   padding-bottom: 5px;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=stylemenu1.css.map */
