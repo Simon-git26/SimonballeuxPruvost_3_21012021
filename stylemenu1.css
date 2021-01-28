@@ -64,13 +64,11 @@ header .logo {
   align-items: center;
   height: 60px;
 }
-
-header img {
-  width: 45%;
-}
-
-header i {
+header .logo i {
   width: 20%;
+}
+header .logo img {
+  width: 45%;
 }
 
 header .fa-arrow-left {
@@ -87,13 +85,7 @@ main .backimg {
   height: 305px;
   position: relative;
 }
-
-main .backimg .flex h1 {
-  font-size: 1.7em;
-  font-family: "Shrikhand", cursive;
-}
-
-main .flex {
+main .backimg .flex {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
@@ -105,8 +97,11 @@ main .flex {
   padding-left: 5%;
   padding-bottom: 30px;
 }
-
-main .flex button {
+main .backimg h1 {
+  font-size: 1.7em;
+  font-family: "Shrikhand", cursive;
+}
+main .backimg button {
   margin-right: 5%;
 }
 
@@ -114,11 +109,6 @@ main .sectionmain {
   background: #fafafa;
   width: 100%;
 }
-
-main .sectionmain h1 {
-  margin-left: 5%;
-}
-
 main .sectionmain h2 {
   margin-left: 5%;
   border-bottom: 3px solid #99E2D0;
@@ -128,46 +118,9 @@ main .sectionmain h2 {
   width: 10%;
   font-size: 1em;
 }
-
-main .sectionmain .entre {
+main .sectionmain .entre, main .sectionmain .plats {
   margin-bottom: 40px;
 }
-
-main .sectionmain .plats {
-  margin-bottom: 40px;
-}
-
-main .content h3 {
-  font-weight: bold;
-  padding-top: 10px;
-  padding-left: 10px;
-  font-size: 1em;
-}
-
-main .content p:last-of-type {
-  color: #2b2b2b;
-  font-weight: bold;
-  margin-right: 5%;
-}
-
-main .content {
-  background: white;
-  border-radius: 10px;
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 15px;
-  box-shadow: 1px 2px 8px #bdbdbd;
-  height: 60px;
-}
-
-main .title {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-top: 5px;
-  font-size: 0.95em;
-}
-
 main .sectionmain .button {
   font-size: 1em;
   height: 50px;
@@ -187,6 +140,34 @@ main .sectionmain button:hover {
   background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
 }
 
+main .content {
+  background: white;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 15px;
+  box-shadow: 1px 2px 8px #bdbdbd;
+  height: 60px;
+}
+main .content h3 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1em;
+}
+main .content .title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 0.95em;
+}
+main .content p:last-of-type {
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
 /* FOOTER */
 footer .foot {
   background: #363636;
@@ -195,21 +176,18 @@ footer .foot {
   padding-bottom: 30px;
   padding-top: 20px;
 }
-
 footer .foot h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.2em;
   padding-bottom: 10px;
 }
-
-footer i {
-  width: 22px;
-  font-size: 0.9em;
-}
-
-footer p {
+footer .foot p {
   padding-bottom: 5px;
   font-size: 1em;
+}
+footer .foot i {
+  width: 22px;
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=stylemenu1.css.map */

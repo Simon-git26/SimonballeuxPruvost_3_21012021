@@ -22,12 +22,12 @@ body h1, h2, h3, p, a {
 header .logo {
     width: 100%;
     text-align: center;
-}
 
-header img {
-    width: 45%;
-    padding-top: 25px;
-    padding-bottom: 10px;
+        img {
+            width: 45%;
+            padding-top: 25px;
+            padding-bottom: 10px;
+        }
 }
 
 header .localisation {
@@ -46,38 +46,38 @@ header .fa-map-marker-alt {
     margin-right: 15px;
 }
 
+
 header .reserv {
     height: auto;
     text-align: center;
     padding-top: 30px;
     background: #f5f5f5;
+
+    h2 {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+        width: 70%;
+        margin-left: 15%;
+    }
+        p {
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            color: #4f4f4f;
+        }
+            button {
+                font-size: 1em;
+                height: 50px;
+                width: 60%;
+                border: none;
+                border-radius: 30px;
+                background: linear-gradient(#FF79DA, #9356DC);
+                color: white;
+                box-shadow: 3px 3px 8px #999999;
+                margin-bottom: 50px;
+            }
 }
 
-header .reserv h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    font-weight: bold;
-    width: 70%;
-    margin-left: 15%;
-}
-
-header .reserv p {
-    margin-bottom: 30px;
-    font-size: 1.2em;
-    color: #4f4f4f;
-}
-
-header .reserv button {
-    font-size: 1em;
-    height: 50px;
-    width: 60%;
-    border: none;
-    border-radius: 30px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    color: white;
-    box-shadow: 3px 3px 8px #999999;
-    margin-bottom: 50px;
-}
 
 header .reserv button:hover {
     @include butprinc;
@@ -87,37 +87,36 @@ header .reserv button:hover {
 
 /* MAIN SECTIONHEAD */ 
 
-main .sectionhead h3 {
-    margin-left: 5%;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
 main .sectionhead {
     height: 380px;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+
+    h3 {
+        margin-left: 5%;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+        button {
+            height: 70px;
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 25px;
+            border: none;
+            border-radius: 20px;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: inherit;
+            background: #f5f5f5;
+            box-shadow: 2px 2px 8px #bdbdbd;
+        }
+            i {
+                margin-left: 30px;
+            }
 }
 
-main .sectionhead button {
-    height: 70px;
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 25px;
-    border: none;
-    border-radius: 20px;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: inherit;
-    background: #f5f5f5;
-    box-shadow: 2px 2px 8px #bdbdbd;
-}
-
-main .sectionhead i {
-    margin-left: 30px;
-}
 
 main .sectionhead .fa-mobile-alt {
     margin-right: 26px;
@@ -154,43 +153,45 @@ main .new {
     margin-top: 12px;
     margin-right: 12px;
     border-radius: 3px;
+
+        p {
+            color:#288051;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
 }
 
-main .new p {
-    color:#288051;
-    font-weight: bold;
-    font-size: 0.9em;
-}
 
 main .restaurants {
     background:#f2f2f2;
     padding-bottom: 40px;
     height: auto;
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-top: 45px;
+            margin-bottom: 20px;
+            margin-left: 5%;
+        }
 }
 
-main .restaurants h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-top: 45px;
-    margin-bottom: 20px;
-    margin-left: 5%;
-}
 
 main .restaurant {
     width: 90%;
     margin-left: 5%;
     margin-bottom: 20px;
     position: relative;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+            img {
+                border-radius: 15px 15px 0 0;
+            }
 }
 
-main .restaurant a {
-    text-decoration: none;
-    color: inherit;
-}
-
-main .restaurant img {
-    border-radius: 15px 15px 0 0;
-}
 
 main .content {
     display: flex;
@@ -199,27 +200,26 @@ main .content {
     justify-content: space-between;
     border-radius: 0 0 15px 15px;
     margin-top: -5px;
-    box-shadow: 1px 2px 8px #bdbdbd
-}
+    box-shadow: 1px 2px 8px #bdbdbd;
 
-main .content button {
-    margin-right: 20px;
+        button {
+            margin-right: 20px;
+        }
 }
 
 main .title {
     margin-left: 15px;
     padding-top: 15px;
-}
 
-main .title h3 {
-    font-weight: bold;
-    font-size: 1.1em;
-    padding-bottom: 5px;
-}
-
-main .title p {
-    font-size: 1.05em;
-    color: #303030;
+        h3 {
+            font-weight: bold;
+            font-size: 1.1em;
+            padding-bottom: 5px;
+        }
+            p {
+                font-size: 1.05em;
+                color: #303030;
+            }
 }
 
 
@@ -234,25 +234,24 @@ footer .foot {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-}
 
-footer .foot h2 {
-    font-family: 'Shrikhand', cursive;
-    font-size: 1.2em;
-    padding-bottom: 10px;
-}
-
-footer i {
-    width: 22px;
-    font-size: 0.9em;
+        h2 {
+            font-family: 'Shrikhand', cursive;
+            font-size: 1.2em;
+            padding-bottom: 10px;
+        }
+            a:last-of-type {
+                color: white;
+                text-decoration: none;
+            }
 }
 
 footer a {
     padding-bottom: 5px;
     font-size: 0.95em;
-}
 
-footer .foot a:last-of-type {
-    color: white;
-    text-decoration: none;
+        i {
+            width: 22px;
+            font-size: 0.9em;
+        }
 }
