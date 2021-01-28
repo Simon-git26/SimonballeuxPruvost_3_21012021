@@ -81,7 +81,7 @@ header .fa-arrow-left {
 
 /* MAIN */
 main .backimg {
-  background-image: url("images/restaurants/restaurantmenu1/restaurant1.jpg");
+  background-image: url("images/restaurants/restaurantmenu2/restaurant1.jpg");
   background-repeat: no-repeat;
   height: 305px;
   position: relative;
@@ -191,4 +191,4 @@ footer .foot i {
   font-size: 0.9em;
 }
 
-/*# sourceMappingURL=stylemenu1.css.map */
+/*# sourceMappingURL=stylemenu2.css.map */

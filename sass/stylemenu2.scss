@@ -1,12 +1,9 @@
-
 @import "libs/reset.scss";
-
 
 @mixin butprinc {
     box-shadow: 4px 4px 8px #212121;
     background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
 }
-
 
 .page_complete {
     width: 100%;
@@ -48,7 +45,7 @@ header .fa-arrow-left {
 /* MAIN */ 
 
 main .backimg {
-    background-image: url('images/restaurants/restaurantmenu1/restaurant1.jpg');
+    background-image: url('images/restaurants/restaurantmenu2/restaurant1.jpg');
     background-repeat: no-repeat;
     height: 305px;
     position: relative;
