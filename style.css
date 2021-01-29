@@ -167,6 +167,14 @@ main .sectionhead .button:hover .para p {
   color: black;
 }
 
+main .sectionhead .active {
+  background-color: #f5daf3;
+  color: #9356dc;
+}
+main .sectionhead .active .para p {
+  color: black;
+}
+
 main .sectionhead .fa-mobile-alt {
   margin-right: 26px;
   font-size: 1.2em;

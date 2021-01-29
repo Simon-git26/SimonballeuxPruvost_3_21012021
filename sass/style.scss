@@ -138,6 +138,14 @@ main .sectionhead .button:hover {
         }
 }
 
+main .sectionhead .active {
+    background-color: #f5daf3;
+    color: rgb(147, 86, 220);
+
+        .para p {
+            color: black;
+        }
+}
 
 main .sectionhead .fa-mobile-alt {
     margin-right: 26px;
