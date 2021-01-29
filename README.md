@@ -1,15 +1,3 @@
 # ohmyfood
 style.css                       .\dart-sass\sass sass/style.scss style.css --watch
 
-
-stylemenu1.css                  .\dart-sass\sass sass/stylemenu1.scss stylemenu1.css --watch
-
-
-stylemenu2.css                  .\dart-sass\sass sass/stylemenu2.scss stylemenu2.css --watch
-
-
-
-stylemenu4.css                  .\dart-sass\sass sass/stylemenu4.scss stylemenu4.css --watch
-
- 
-stylemenu3.css                 .\dart-sass\sass sass/stylemenu3.scss stylemenu3.css --watch
