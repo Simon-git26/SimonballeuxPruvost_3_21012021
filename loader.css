@@ -1,5 +1,5 @@
 
-.chargload {
+.litlechargload {
 
     /* Création du loader */
 
@@ -7,19 +7,53 @@
     border-bottom: 10px solid#FF79DA;
     border-left: 10px solid #99E2D0;
     border-right: 10px solid #99E2D0;
-    width: 120px;
-    height: 120px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     -webkit-animation: spin 1.5s linear infinite;
-    -o-animation: spin 1.5s linear infinite;
-    animation: spin 1.5s linear infinite;
+    -o-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
 
-    /* Placement loader */
+     /* Placement loader */
 
     margin: auto;
     position: absolute;
     top: 0; bottom: 0; right: 0; left: 0;
 }
+
+
+.chargload {
+    border-top: 10px solid #9356DC;
+    border-bottom: 10px solid#FF79DA;
+    border-left: 10px solid #99E2D0;
+    border-right: 10px solid #99E2D0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    -webkit-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+
+.bigchargload {
+    border-top: 10px solid #9356DC;
+    border-bottom: 10px solid#FF79DA;
+    border-left: 10px solid #99E2D0;
+    border-right: 10px solid #99E2D0;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+
 
 /* Animation loader */
 
@@ -43,4 +77,98 @@
     100% {
         -webkit-transform: rotate(360deg);
     }
+}
+
+
+
+
+/* CHARGEMENT */ 
+
+.chargement {
+
+     /* PLACEMENT */
+
+     width: 210px;
+     height: 0px;
+     padding-top: 180px;
+     margin: auto;
+     position: absolute;
+     top: 0; bottom: 0; right: 0; left: 0;
+
+}
+
+.lettre {
+    font-size: 25px;
+    color: #FF79DA;
+    -webkit-animation: flash 1.2s linear infinite;
+    -o-animation: flash 1.2s linear infinite;
+    animation: flash 1.2s linear infinite;
+}
+
+@keyframes flash {
+    0% {
+        color:  #9356DC;
+        text-shadow: 0 0 7px #9356DC;
+    }
+
+    90% {
+        color: #FF79DA;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #9356DC;
+        text-shadow: 0 0 7#9356DC;
+    }
+}
+
+@-webkit-keyframes flash {
+    0% {
+        color:  #9356DC;
+        text-shadow: 0 0 7px #9356DC;
+    }
+
+    90% {
+        color: #FF79DA;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #9356DC;
+        text-shadow: 0 0 7#9356DC;
+    }
+}
+
+
+/* EFFET DE GAUCHE A DROITE */ 
+
+.lettre:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.lettre:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.lettre:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.lettre:nth-child(4) {
+    animation-delay: 0.4s;
+}
+.lettre:nth-child(5) {
+    animation-delay: 0.5s;
+}
+.lettre:nth-child(6) {
+    animation-delay: 0.6s;
+}
+.lettre:nth-child(7) {
+    animation-delay: 0.7s;
+}
+.lettre:nth-child(8) {
+    animation-delay: 0.8s;
+}
+.lettre:nth-child(9) {
+    animation-delay: 0.9s;
+}
+.lettre:nth-child(10) {
+    animation-delay: 1s;
 }
