@@ -1,0 +1,46 @@
+
+.chargload {
+
+    /* Création du loader */
+
+    border-top: 10px solid #9356DC;
+    border-bottom: 10px solid#FF79DA;
+    border-left: 10px solid #99E2D0;
+    border-right: 10px solid #99E2D0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+
+    /* Placement loader */
+
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+
+/* Animation loader */
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+ /* Vieu navigateur */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
