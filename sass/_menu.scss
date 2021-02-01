@@ -48,8 +48,9 @@
             font-size: 1.7em;
             font-family: 'Shrikhand', cursive;
         }
-        button {
-            margin-right: 5%;
+
+        .coeur {
+            @include coeur;
         }
     }
 

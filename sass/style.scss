@@ -6,6 +6,13 @@
     background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
 }
 
+@mixin coeur {
+    margin-top: 5px;
+    margin-right: 30px;
+    font-size: 1.6em;
+}
+    
+
 body {
     font-family: 'Roboto', sans-serif;
 }

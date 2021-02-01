@@ -119,8 +119,9 @@ main .restaurant {
         margin-top: -5px;
         box-shadow: 1px 2px 8px #bdbdbd;
     
-        button {
-            margin-right: 20px;
+        .coeur {
+            @include coeur;
+            margin-top: 20px;
         }
 
         .title {
