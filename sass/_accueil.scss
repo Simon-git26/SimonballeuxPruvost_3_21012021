@@ -123,6 +123,10 @@ main .restaurant {
             @include coeur;
             margin-top: 20px;
         }
+            .fa-heart:active::before {
+                @include coeur-active;
+            }
+            
 
         .title {
             margin-left: 15px;

@@ -52,6 +52,9 @@
         .coeur {
             @include coeur;
         }
+            .fa-heart:active::before {
+                @include coeur-active;
+            }
     }
 
     h2 {

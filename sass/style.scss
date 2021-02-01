@@ -11,7 +11,13 @@
     margin-right: 30px;
     font-size: 1.6em;
 }
-    
+   
+@mixin coeur-active {
+    color: rgba(147, 86, 220, 0.9);
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.5s ease-out;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
