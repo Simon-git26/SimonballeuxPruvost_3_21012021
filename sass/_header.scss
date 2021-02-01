@@ -2,6 +2,7 @@
 
 header { 
     position: relative;
+    
 
     .logo {
         width: 100%;
@@ -70,10 +71,9 @@ header .reserv {
         color: white;
         box-shadow: 3px 3px 8px #999999;
         margin-bottom: 50px;
+
+        &:hover {
+            @include butprinc;
+        }
     }
-}
-
-
-header .reserv button:hover {
-    @include butprinc;
 }
