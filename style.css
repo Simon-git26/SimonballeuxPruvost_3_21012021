@@ -477,38 +477,38 @@ main .restaurant .new p {
 .menu .entre {
   margin-bottom: 40px;
 }
-.menu .entre .anim1 {
-  animation-delay: 0s;
-}
-.menu .entre .anim2 {
-  animation-delay: 0.2s;
-}
-.menu .entre .anim3 {
-  animation-delay: 0.5s;
-}
 .menu .entre .animplus {
-  animation-delay: 0.7s;
+  animation-delay: 0.55s;
 }
 .menu .plats {
   margin-bottom: 40px;
 }
-.menu .plats .anim4 {
-  animation-delay: 0.8s;
+.menu .for .anim:nth-child(1) {
+  animation-delay: 200ms;
 }
-.menu .plats .anim5 {
-  animation-delay: 1.1s;
+.menu .for .anim:nth-child(2) {
+  animation-delay: 400ms;
 }
-.menu .plats .anim6 {
-  animation-delay: 1.4s;
+.menu .for .anim:nth-child(3) {
+  animation-delay: 600ms;
 }
-.menu .desserts .anim7 {
-  animation-delay: 1.7s;
+.menu .for .anim:nth-child(4) {
+  animation-delay: 800ms;
 }
-.menu .desserts .anim8 {
-  animation-delay: 2s;
+.menu .for .anim:nth-child(5) {
+  animation-delay: 1000ms;
 }
-.menu .desserts .anim9 {
-  animation-delay: 2.3s;
+.menu .for .anim:nth-child(6) {
+  animation-delay: 1200ms;
+}
+.menu .for .anim:nth-child(7) {
+  animation-delay: 1400ms;
+}
+.menu .for .anim:nth-child(8) {
+  animation-delay: 1600ms;
+}
+.menu .for .anim:nth-child(9) {
+  animation-delay: 1800ms;
 }
 .menu .button {
   font-size: 1em;

@@ -70,51 +70,20 @@
     .entre {
         margin-bottom: 40px;
 
-            .anim1 {
-                animation-delay: 0s;
-            }
-
-            .anim2 {
-                animation-delay: 0.2s;
-            }
-
-            .anim3 {
-                animation-delay: 0.5s;
-            }
-
             .animplus {
-                animation-delay: 0.7s;
+                animation-delay: 0.55s;
             }
     }
 
     .plats {
         margin-bottom: 40px;
-
-        .anim4 {
-            animation-delay: 0.8s;
-        }
-
-        .anim5 {
-            animation-delay: 1.1s;
-        }
-
-        .anim6 {
-            animation-delay: 1.4s;
-        }
     }
 
-    .desserts {
-
-        .anim7 {
-            animation-delay: 1.7s;
-        }
-
-        .anim8 {
-            animation-delay: 2s;
-        }
-
-        .anim9 {
-            animation-delay: 2.3s;
+    .for {
+        @for $i from 1 through 9 {
+            .anim:nth-child(#{$i}) {
+                animation-delay: $i * 200ms;
+            }
         }
     }
 
