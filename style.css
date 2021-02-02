@@ -528,6 +528,7 @@ main .restaurant .new p {
   background: linear-gradient(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9));
 }
 .menu .content {
+  position: relative;
   background: white;
   border-radius: 10px;
   width: 90%;
@@ -535,19 +536,12 @@ main .restaurant .new p {
   margin-bottom: 15px;
   box-shadow: 1px 2px 8px #bdbdbd;
   height: 60px;
-  transition: all 0.5s ease 0s;
   animation-duration: 3s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-play-state: running;
   animation-name: anim;
   opacity: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
   cursor: pointer;
+  /* TEST BOX check */
 }
 @keyframes anim {
   0% {
@@ -576,6 +570,38 @@ main .restaurant .new p {
   color: #2b2b2b;
   font-weight: bold;
   margin-right: 5%;
+}
+.menu .content .boxcheck {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  height: 100%;
+  width: 20%;
+}
+.menu .content .boxcheck:hover {
+  background: #99E2D0;
+  border-radius: 0 10px 10px 0;
+}
+@keyframes check {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-25px);
+    opacity: 1;
+  }
+}
+.menu .content .check {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu .content .check:hover {
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-name: check;
+  opacity: 0;
+  cursor: pointer;
 }
 
 /* FOOTER */
