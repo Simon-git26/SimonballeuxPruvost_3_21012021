@@ -577,10 +577,10 @@ main .restaurant .new p {
   color: white;
   font-size: 1.4em;
 }
-.menu .content:hover .check {
+.menu .content:active .check {
   width: 55px;
 }
-.menu .content:hover .check i {
+.menu .content:active .check i {
   transform: rotateZ(360deg);
 }
 .menu .content .title {
