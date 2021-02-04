@@ -1,3 +1,42 @@
-body p, h1, h2, h3 {
-    color: red;
+@import "reset";
+
+
+/* HEADER */ 
+
+header {
+
+    .localisation {
+        font-size: 1.3em;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .reserv button {
+        width: 30%;
+        font-size: 1.2em;
+        background: linear-gradient( #9356DC,#FF79DA);
+        margin-bottom: 30px;
+    }
+}
+
+
+main .sectionhead {
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: auto;
+
+    h3 {
+        margin-left: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: initial;
+    }
+
 }

@@ -266,14 +266,16 @@ header .reserv button:hover {
 main .sectionhead {
   height: 380px;
   margin-top: 40px;
-  display: flex;
-  flex-direction: column;
 }
 main .sectionhead h3 {
   margin-left: 5%;
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 30px;
+}
+main .sectionhead .columns {
+  display: flex;
+  flex-direction: column;
 }
 main .sectionhead .button {
   display: flex;

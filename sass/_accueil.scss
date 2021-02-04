@@ -1,8 +1,7 @@
 main .sectionhead {
     height: 380px;
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
+ 
 
     h3 {
         margin-left: 5%;
@@ -10,6 +9,12 @@ main .sectionhead {
         font-weight: bold;
         margin-bottom: 30px;
     }
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .button {
         display: flex;
         height: 70px;
