@@ -47,7 +47,18 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
+body {
+  background: rgba(153, 226, 208, 0.7);
+}
+
+.page_complete {
+  width: 1600px;
+}
+
 /* HEADER */
+header .logo {
+  background: white;
+}
 header .localisation {
   font-size: 1.3em;
   padding-left: 0;
@@ -61,20 +72,61 @@ header .reserv button {
 }
 
 main .sectionhead {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   height: auto;
+  background: white;
 }
 main .sectionhead h3 {
-  margin-left: 0;
+  font-size: 1.7em;
   margin-bottom: 20px;
+  text-decoration: underline;
+  width: 100%;
   display: flex;
   justify-content: center;
-  text-decoration: underline;
+  align-items: center;
+  margin-left: 0;
 }
 main .sectionhead .columns {
   display: flex;
   flex-direction: initial;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+main .sectionhead .button {
+  width: 20%;
+}
+
+main .restaurants h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 0;
+  font-size: 1.7em;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+main .restaurants .deskflex {
+  flex-direction: inherit;
+}
+main .restaurants .restaurant {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+footer .foot {
+  padding-left: 0;
+  padding-top: 25px;
+  height: 80px;
+  padding-bottom: 0;
+  flex-direction: inherit;
+  justify-content: space-around;
+  font-size: 1.2em;
+  align-items: baseline;
 }
 
 /*# sourceMappingURL=styledesktop.css.map */

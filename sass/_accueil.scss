@@ -10,11 +10,6 @@ main .sectionhead {
         margin-bottom: 30px;
     }
 
-    .columns {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .button {
         display: flex;
         height: 70px;
@@ -98,6 +93,11 @@ main .restaurants {
         margin-bottom: 20px;
         margin-left: 5%;
     }
+
+    .deskflex {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -150,11 +150,13 @@ main .restaurant {
     }
 
     .new {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background: #99E2D0;
         width: 25%;
         height: 12%;
         text-align: center;
-        padding-top: 6px;
         position: absolute;
         top: 0;
         right: 0;
