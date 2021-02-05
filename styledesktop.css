@@ -141,9 +141,11 @@ header .logo a {
   top: 45px;
 }
 
+.menu .backimg {
+  background-repeat: repeat-x;
+}
 .menu .backimg .flex {
   background: #eeeeee;
-  justify-content: inherit;
   width: 90%;
   margin-left: 5%;
   padding-left: 0;

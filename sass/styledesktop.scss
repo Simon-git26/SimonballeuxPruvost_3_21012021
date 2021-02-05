@@ -130,10 +130,10 @@ header {
 .menu {
 
     .backimg {
+        background-repeat: repeat-x;
 
         .flex {
             background: rgb(238, 238, 238);;
-            justify-content: inherit;
             width: 90%;
             margin-left: 5%;
             padding-left: 0;
