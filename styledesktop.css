@@ -167,6 +167,12 @@ header .logo a {
   background: #eeeeee;
   border-radius: 0 0 40px 40px;
 }
+.menu .for .content h3 {
+  color: black;
+}
+.menu .for .content p:first-child {
+  color: black;
+}
 .menu .for .entre {
   width: 100%;
 }

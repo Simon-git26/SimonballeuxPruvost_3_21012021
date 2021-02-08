@@ -158,6 +158,17 @@ header {
         background: rgb(238, 238, 238);
         border-radius: 0 0 40px 40px;
 
+        .content {
+
+            h3 {
+                color: black;
+            }
+
+            p:first-child {
+                color: black;
+            }
+        }
+
         .entre {
             width: 100%;
         }
