@@ -12,6 +12,7 @@
 
     .backimg {
     
+        background-size: cover;
         background-repeat: no-repeat;
         height: 313px;
         position: relative;
@@ -51,10 +52,14 @@
 
         .coeur {
             @include coeur;
-        }
-            .fa-heart:active::before {
-                @include coeur-active;
+
+            &:focus {
+                .fa-heart {
+                    @include coeur-active;
+                }
             }
+        }
+            
     }
 
     h2 {
@@ -160,8 +165,8 @@
                 font-size: 1.4em;
             }
         }
-
-        &:active {
+ 
+        &:focus {
             .check {
                 width: 55px;
 

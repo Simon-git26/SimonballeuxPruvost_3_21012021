@@ -1,5 +1,3 @@
-@import "reset";
-
 @mixin pos {
     width: 60%;
     margin: auto;
@@ -47,6 +45,39 @@ header {
         }
     }
 }
+
+
+
+
+/* PAGE MENU */
+
+header {
+    @include pos;
+
+    a {
+        top: 28px;
+        font-size: 1.5em;
+    }
+}
+
+
+.menu {
+
+    .backimg {
+        @include pos;
+
+        .flex {
+            background: #ebebeb;
+        }
+    }
+
+    .for {
+        @include pos;
+        background: #ebebeb;
+        padding-bottom: 15px;
+    }
+}
+
 
 /* FOOTER*/
 

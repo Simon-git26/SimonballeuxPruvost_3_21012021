@@ -34,3 +34,12 @@ body {
 @import "accueil";
 @import "menu";
 @import "footer";
+
+
+@media all and (min-width: 1260px) {
+    @import "responsivedesktop";
+}
+
+@media all and (min-width: 768px) {
+    @import "responsivetablette";
+}
