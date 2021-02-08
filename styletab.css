@@ -47,8 +47,43 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
-body p, h2, h3 {
-  color: red;
+header {
+  width: 60%;
+  margin: auto;
+}
+header a {
+  top: 35px;
+  font-size: 1.5em;
+}
+
+.menu .backimg {
+  width: 60%;
+  margin: auto;
+  position: inherit;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.menu .backimg .flex {
+  position: inherit;
+  background: #ebebeb;
+}
+.menu .for {
+  width: 60%;
+  margin: auto;
+  background: #ebebeb;
+  padding-bottom: 15px;
+}
+
+/* FOOTER*/
+footer .foot {
+  padding-left: 0;
+  padding-top: 25px;
+  height: 80px;
+  padding-bottom: 0;
+  flex-direction: inherit;
+  justify-content: space-around;
+  font-size: 1.2em;
+  align-items: baseline;
 }
 
 /*# sourceMappingURL=styletab.css.map */

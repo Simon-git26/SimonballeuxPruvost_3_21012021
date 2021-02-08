@@ -1,5 +1,16 @@
 @import "reset";
 
+@mixin footrespons {
+    padding-left: 0;
+    padding-top: 25px;
+    height: 80px;
+    padding-bottom: 0;
+    flex-direction: inherit;
+    justify-content: space-around;
+    font-size: 1.2em;
+    align-items: baseline;
+}
+
 body {
     background: rgba(153, 226, 208, 0.7);
 }
@@ -11,6 +22,9 @@ body {
 /* HEADER */ 
 
 header {
+
+    width: 100%;
+    margin: inherit;
 
     .logo {
         background: white;
@@ -95,14 +109,7 @@ main .restaurants {
 /* FOOTER*/
 
 footer .foot {
-    padding-left: 0;
-    padding-top: 25px;
-    height: 80px;
-    padding-bottom: 0;
-    flex-direction: inherit;
-    justify-content: space-around;
-    font-size: 1.2em;
-    align-items: baseline;
+    @include footrespons;
 }
 
 
@@ -131,6 +138,8 @@ header {
 
     .backimg {
         background-repeat: repeat-x;
+        width: 100%;
+        margin: inherit;
 
         .flex {
             background: rgb(238, 238, 238);;

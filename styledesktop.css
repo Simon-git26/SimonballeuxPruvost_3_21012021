@@ -56,6 +56,10 @@ body {
 }
 
 /* HEADER */
+header {
+  width: 100%;
+  margin: inherit;
+}
 header .logo {
   background: white;
 }
@@ -143,6 +147,8 @@ header .logo a {
 
 .menu .backimg {
   background-repeat: repeat-x;
+  width: 100%;
+  margin: inherit;
 }
 .menu .backimg .flex {
   background: #eeeeee;

@@ -1,5 +1,55 @@
 @import "reset";
 
-body p, h2, h3 {
-    color: red;
+@mixin pos {
+    width: 60%;
+    margin: auto;
+}
+
+@mixin footrespons {
+    padding-left: 0;
+    padding-top: 25px;
+    height: 80px;
+    padding-bottom: 0;
+    flex-direction: inherit;
+    justify-content: space-around;
+    font-size: 1.2em;
+    align-items: baseline;
+}
+
+
+header {
+    @include pos;
+
+    a {
+        top: 35px;
+        font-size: 1.5em
+    }
+}
+
+.menu {
+
+    .backimg {
+        @include pos;
+        position: inherit;
+        display: flex;
+        flex-direction: column-reverse;
+
+        .flex {
+            position: inherit;
+            background: #ebebeb;
+        }
+    }
+
+    .for {
+        @include pos;
+        background: #ebebeb;
+        padding-bottom: 15px;
+    }
+}
+
+
+/* FOOTER*/
+
+footer .foot {
+    @include footrespons;
 }
