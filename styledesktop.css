@@ -58,6 +58,7 @@ body {
 
 /* HEADER */
 header {
+  width: 100%;
   margin: inherit;
 }
 header .logo, header .localisation, header .reserv {

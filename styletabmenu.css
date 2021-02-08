@@ -47,23 +47,28 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
-/* PAGE ACCUEIL */
-header .localisation {
-  padding-left: 39%;
+/* PAGE MENU */
+header {
+  width: 60%;
+  margin: auto;
 }
 header a {
-  top: 35px;
+  top: 28px;
   font-size: 1.5em;
 }
 
-.sectionhead {
-  width: 70%;
+.menu .backimg {
+  width: 60%;
   margin: auto;
 }
-
-.restaurants .deskflex .tab1, .restaurants .deskflex .tab2 {
-  display: flex;
-  margin-right: 5%;
+.menu .backimg .flex {
+  background: #ebebeb;
+}
+.menu .for {
+  width: 60%;
+  margin: auto;
+  background: #ebebeb;
+  padding-bottom: 15px;
 }
 
 /* FOOTER*/
@@ -79,4 +84,4 @@ footer .foot {
   font-size: 1.1em;
 }
 
-/*# sourceMappingURL=styletab.css.map */
+/*# sourceMappingURL=styletabmenu.css.map */

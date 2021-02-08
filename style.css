@@ -209,7 +209,7 @@ header .logo img {
 header a {
   position: absolute;
   left: 5%;
-  top: 25px;
+  top: 27px;
   color: #363636;
   font-size: 1.2em;
 }
@@ -427,7 +427,7 @@ main .restaurant .new p {
 }
 .menu .backimg {
   background-repeat: no-repeat;
-  height: 305px;
+  height: 313px;
   position: relative;
 }
 .menu .backimg.menu1 {
@@ -445,7 +445,7 @@ main .restaurant .new p {
 .menu .backimg .flex {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 20px;
   position: absolute;
   bottom: 0px;
   width: 100%;
