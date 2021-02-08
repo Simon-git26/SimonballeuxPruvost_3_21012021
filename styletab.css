@@ -47,15 +47,23 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
-header {
-  width: 60%;
-  margin: auto;
-}
+/* PAGE ACCUEIL */
 header a {
   top: 35px;
   font-size: 1.5em;
 }
 
+.sectionhead {
+  width: 70%;
+  margin: auto;
+}
+
+.restaurants .deskflex .tab1, .restaurants .deskflex .tab2 {
+  display: flex;
+  margin-right: 5%;
+}
+
+/* PAGE MENU */
 .menu .backimg {
   width: 60%;
   margin: auto;

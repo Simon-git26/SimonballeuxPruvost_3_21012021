@@ -11,6 +11,9 @@
     align-items: baseline;
 }
 
+
+/* PAGE ACCUEIL */ 
+
 body {
     background: rgba(153, 226, 208, 0.7);
 }
@@ -23,8 +26,12 @@ body {
 
 header {
 
-    width: 100%;
     margin: inherit;
+
+    .logo, .localisation, .reserv {
+        width: 100%;
+        margin: inherit;
+    }
 
     .logo {
         background: white;
@@ -54,6 +61,8 @@ main .sectionhead {
     padding-bottom: 60px;
     height: auto;
     background: white;
+    width: 100%;
+    margin: inherit;
 
     h3 {
         font-size: 1.7em;
@@ -97,6 +106,10 @@ main .restaurants {
 
     .deskflex {
         flex-direction: inherit;
+
+        .tab1, .tab2 {
+            margin-right: 0;
+        }
     }
 
     .restaurant {
@@ -111,6 +124,7 @@ main .restaurants {
 footer .foot {
     @include footrespons;
 }
+
 
 
 
