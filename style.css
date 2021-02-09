@@ -383,7 +383,9 @@ main .restaurant .content .coeur {
   margin-top: 20px;
 }
 main .restaurant .content .fa-heart:active::before {
-  color: rgba(147, 86, 220, 0.9);
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   cursor: pointer;
   transition: color 0.3s ease-out;
@@ -466,7 +468,9 @@ main .restaurant .new p {
   font-size: 1.6em;
 }
 .menu .backimg .coeur:focus .fa-heart {
-  color: rgba(147, 86, 220, 0.9);
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   cursor: pointer;
   transition: color 0.3s ease-out;
