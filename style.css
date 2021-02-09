@@ -769,6 +769,14 @@ footer a i {
     margin-top: 0;
     margin-left: 3%;
   }
+  .menu .backimg .flex .coeur:hover .fa-heart {
+    background: -webkit-linear-gradient(#9356dc, #ff79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease-out;
+  }
   .menu .for {
     display: flex;
     width: 90%;
@@ -782,6 +790,12 @@ footer a i {
   }
   .menu .for .content p:first-child {
     color: black;
+  }
+  .menu .for .content:hover .check {
+    width: 55px;
+  }
+  .menu .for .content:hover .check i {
+    transform: rotateZ(360deg);
   }
   .menu .for .entre {
     width: 100%;
@@ -834,17 +848,31 @@ footer a i {
   }
 
   .menu .backimg {
-    width: 60%;
+    width: 75%;
     margin: auto;
   }
   .menu .backimg .flex {
     background: #ebebeb;
   }
+  .menu .backimg .coeur:hover .fa-heart {
+    background: -webkit-linear-gradient(#9356dc, #ff79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease-out;
+  }
   .menu .for {
-    width: 60%;
+    width: 75%;
     margin: auto;
     background: #ebebeb;
     padding-bottom: 15px;
+  }
+  .menu .for .content:hover .check {
+    width: 55px;
+  }
+  .menu .for .content:hover .check i {
+    transform: rotateZ(360deg);
   }
 
   /* FOOTER*/

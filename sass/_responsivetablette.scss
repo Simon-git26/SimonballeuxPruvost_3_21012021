@@ -1,5 +1,5 @@
 @mixin pos {
-    width: 60%;
+    width: 75%;
     margin: auto;
 }
 
@@ -70,12 +70,32 @@ header {
         .flex {
             background: #ebebeb;
         }
+
+        .coeur {
+            &:hover {
+                .fa-heart {
+                    @include coeur-active;
+                }
+            }
+        }
     }
 
     .for {
         @include pos;
         background: #ebebeb;
         padding-bottom: 15px;
+
+        .content {
+            &:hover {
+                .check {
+                    width: 55px;
+    
+                    i {
+                        transform: rotateZ(360deg);
+                    }
+                }
+            }
+        }
     }
 }
 
