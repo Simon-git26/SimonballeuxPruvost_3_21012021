@@ -127,12 +127,14 @@ main .restaurant {
         .coeur {
             @include coeur;
             margin-top: 20px;
-        }
-            .fa-heart:active::before {
-                @include coeur-active;
+        
+            &:hover {
+                .fa-heart {
+                    @include coeur-active;
+                }
             }
+        }
             
-
         .title {
             margin-left: 15px;
             padding-top: 15px;

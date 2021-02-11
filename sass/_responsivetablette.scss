@@ -72,7 +72,7 @@ header {
         }
 
         .coeur {
-            &:hover {
+            &:focus {
                 .fa-heart {
                     @include coeur-active;
                 }
@@ -87,7 +87,7 @@ header {
         padding-bottom: 15px;
 
         .content {
-            &:hover {
+            &:focus {
                 .check {
                     width: 55px;
     
