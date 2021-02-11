@@ -382,7 +382,7 @@ main .restaurant .content .coeur {
   font-size: 1.6em;
   margin-top: 20px;
 }
-main .restaurant .content .fa-heart:active::before {
+main .restaurant .content .coeur:hover .fa-heart {
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -854,7 +854,7 @@ footer a i {
   .menu .backimg .flex {
     background: #ebebeb;
   }
-  .menu .backimg .coeur:hover .fa-heart {
+  .menu .backimg .coeur:focus .fa-heart {
     background: -webkit-linear-gradient(#9356dc, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -868,10 +868,10 @@ footer a i {
     background: #ebebeb;
     padding-bottom: 15px;
   }
-  .menu .for .content:hover .check {
+  .menu .for .content:focus .check {
     width: 55px;
   }
-  .menu .for .content:hover .check i {
+  .menu .for .content:focus .check i {
     transform: rotateZ(360deg);
   }
 
