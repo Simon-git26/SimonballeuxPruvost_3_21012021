@@ -751,10 +751,12 @@ footer a i {
   }
 
   .menu .backimg {
-    background-repeat: repeat-x;
     width: 100%;
     margin: inherit;
     background-size: inherit;
+  }
+  .menu .backimg.menu1, .menu .backimg.menu2, .menu .backimg.menu3, .menu .backimg.menu4 {
+    margin-left: 37%;
   }
   .menu .backimg .flex {
     background: #eeeeee;
@@ -763,6 +765,7 @@ footer a i {
     justify-content: center;
     font-size: 1.3em;
     padding-top: 20px;
+    left: -392px;
   }
   .menu .backimg .flex .coeur {
     margin-right: 0;
@@ -853,6 +856,7 @@ footer a i {
   }
   .menu .backimg .flex {
     background: #ebebeb;
+    bottom: -1px;
   }
   .menu .backimg .coeur:focus .fa-heart {
     background: -webkit-linear-gradient(#9356dc, #ff79da);
