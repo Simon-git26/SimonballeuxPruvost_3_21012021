@@ -383,12 +383,9 @@ main .restaurant .content .coeur {
   margin-top: 20px;
 }
 main .restaurant .content .coeur:hover .fa-heart {
-  background: -webkit-linear-gradient(#9356dc, #ff79da);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: bold;
   cursor: pointer;
-  transition: color 0.3s ease-out;
+  background-position: left bottom;
 }
 main .restaurant .content .title {
   margin-left: 15px;
@@ -467,13 +464,18 @@ main .restaurant .new p {
   margin-right: 30px;
   font-size: 1.6em;
 }
-.menu .backimg .coeur:focus .fa-heart {
-  background: -webkit-linear-gradient(#9356dc, #ff79da);
+.menu .backimg .coeur .fa-heart {
+  background: linear-gradient(to top, #9356dc 0%, #ff79da 50%, black 50%, black 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-size: 100% 200%;
+  background-position: left top;
+  transition: all 0.5s ease-out;
+}
+.menu .backimg .coeur:focus .fa-heart {
   font-weight: bold;
   cursor: pointer;
-  transition: color 0.3s ease-out;
+  background-position: left bottom;
 }
 .menu h2 {
   margin-left: 5%;
@@ -564,6 +566,7 @@ main .restaurant .new p {
 }
 .menu .content .flex-grow-1 {
   flex-grow: 1;
+  position: relative;
 }
 .menu .content h3 {
   font-weight: bold;
@@ -599,6 +602,9 @@ main .restaurant .new p {
   padding-left: 10px;
   padding-top: 5px;
   font-size: 0.95em;
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
 .menu .content p:first-child {
   overflow: hidden;
@@ -773,12 +779,9 @@ footer a i {
     margin-left: 3%;
   }
   .menu .backimg .flex .coeur:hover .fa-heart {
-    background: -webkit-linear-gradient(#9356dc, #ff79da);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-weight: bold;
     cursor: pointer;
-    transition: color 0.3s ease-out;
+    background-position: left bottom;
   }
   .menu .for {
     display: flex;
@@ -859,12 +862,9 @@ footer a i {
     bottom: -1px;
   }
   .menu .backimg .coeur:focus .fa-heart {
-    background: -webkit-linear-gradient(#9356dc, #ff79da);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-weight: bold;
     cursor: pointer;
-    transition: color 0.3s ease-out;
+    background-position: left bottom;
   }
   .menu .for {
     width: 75%;

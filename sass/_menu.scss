@@ -47,6 +47,15 @@
         .coeur {
             @include coeur;
 
+            .fa-heart {
+                background: linear-gradient(to top, #9356dc 0%, #ff79da 50%, black 50%, black 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 100% 200%;
+                background-position: left top;
+                transition: all .5s ease-out;
+            }
+
             &:focus {
                 .fa-heart {
                     @include coeur-active;
@@ -133,6 +142,7 @@
         
         .flex-grow-1 {
             flex-grow: 1;
+            position: relative;
         }
 
         h3 {
@@ -176,6 +186,9 @@
             padding-left: 10px;
             padding-top: 5px;
             font-size: 0.95em;
+            position: absolute;
+            left: 0;
+            width: 100%;
         }
 
         p:first-child {
