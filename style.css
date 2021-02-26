@@ -389,16 +389,31 @@ main .restaurant .content .title p {
   font-size: 1.05em;
   color: #303030;
 }
-main .restaurant .content .coeur {
+main .restaurant .content .parent {
+  position: relative;
+}
+main .restaurant .content .parent .coeur {
   margin-top: 5px;
   margin-right: 30px;
   font-size: 1.6em;
   margin-top: 20px;
 }
-main .restaurant .content .coeur:hover .fa-heart {
+main .restaurant .content .parent .coeur:hover .fa-heart {
   font-weight: bold;
   cursor: pointer;
   background-position: left bottom;
+}
+main .restaurant .content .parent .coeur2 {
+  position: absolute;
+  top: 0;
+  height: 0;
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 1s;
+}
+main .restaurant .content .parent .coeur2:hover {
+  height: 34px;
 }
 main .restaurant .new {
   display: flex;

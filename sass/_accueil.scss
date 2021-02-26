@@ -139,13 +139,31 @@ main .restaurant {
             }
         }
 
-        .coeur {
-            @include coeur;
-            margin-top: 20px;
-        
-            &:hover {
-                .fa-heart {
-                    @include coeur-active;
+        .parent {
+            position: relative;
+
+            .coeur {
+                @include coeur;
+                margin-top: 20px;
+    
+                &:hover {
+                    .fa-heart {
+                        @include coeur-active;
+                    }
+                }
+            }
+
+            .coeur2 {
+                position: absolute;
+                top: 0;
+                height: 0;
+                background: -webkit-linear-gradient(#9356dc, #ff79da);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: all 1s;
+                
+                &:hover {
+                    height: 34px;
                 }
             }
         }
