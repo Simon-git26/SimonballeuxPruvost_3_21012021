@@ -159,7 +159,6 @@ header {
 
 
         .parent {
-            position: relative;
 
             .coeur {
                 margin-right: 0;
@@ -174,7 +173,6 @@ header {
             }
 
             .coeur2 {
-                position: absolute;
                 
                 &:hover {
                     height: 34px;

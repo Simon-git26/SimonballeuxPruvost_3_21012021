@@ -123,17 +123,6 @@ main .restaurant {
         border-radius: 0 0 15px 15px;
         margin-top: -5px;
         box-shadow: 1px 2px 8px #bdbdbd;
-    
-        .coeur {
-            @include coeur;
-            margin-top: 20px;
-        
-            &:hover {
-                .fa-heart {
-                    @include coeur-active;
-                }
-            }
-        }
             
         .title {
             margin-left: 15px;
@@ -149,7 +138,21 @@ main .restaurant {
                 color: #303030;
             }
         }
+
+        .coeur {
+            @include coeur;
+            margin-top: 20px;
+        
+            &:hover {
+                .fa-heart {
+                    @include coeur-active;
+                }
+            }
+        }
     }
+
+    
+     
 
     .new {
         display: flex;
