@@ -44,25 +44,34 @@
             font-family: 'Shrikhand', cursive;
         }
 
-        .coeur {
-            @include coeur;
 
-            .fa-heart {
-                background: linear-gradient(to top, #9356dc 0%, #ff79da 50%, black 50%, black 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-size: 100% 200%;
-                background-position: left top;
-                transition: all .5s ease-out;
-            }
+        .parent {
+            position: relative;
 
-            &:focus {
-                .fa-heart {
-                    @include coeur-active;
+            .coeur {
+                @include coeur;
+    
+                &:focus {
+                    .fa-heart {
+                        @include coeur-active;
+                    }
                 }
             }
-        }
-            
+
+            .coeur2 {
+                position: absolute;
+                top: 0;
+                height: 0;
+                background: -webkit-linear-gradient(#9356dc, #ff79da);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: all 1s;
+                
+                &:focus {
+                    height: 34px;
+                }
+            }
+        }      
     }
 
     h2 {

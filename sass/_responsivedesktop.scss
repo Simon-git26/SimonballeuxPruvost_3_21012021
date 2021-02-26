@@ -155,13 +155,17 @@ header {
             font-size: 1.3em;
             padding-top: 20px;
             left: -392px;
+        }
 
+
+        .parent {
+            position: relative;
 
             .coeur {
                 margin-right: 0;
                 margin-top: 0;
                 margin-left: 3%;
-
+    
                 &:hover {
                     .fa-heart {
                         @include coeur-active;
@@ -169,10 +173,14 @@ header {
                 }
             }
 
-            
+            .coeur2 {
+                position: absolute;
                 
-            
-        }
+                &:hover {
+                    height: 34px;
+                }
+            }
+        }  
     }
 
     .for {
